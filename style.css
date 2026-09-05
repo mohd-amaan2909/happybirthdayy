@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    background: radial-gradient(circle at center, #273F2B 0%, #0B191C 75%);
+    background-color: #1A1A1A;
+    color: #F0EAD6;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.font1{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    text-shadow: 1px 2px 2px #D4AF37;
+    padding: 0;
+    /* font-style: normal; */
+}
+.font2{
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 400;
+    text-shadow: 2px 1px 2px #5a4d25;
+    padding: 10px;
+     margin-top: 20px
+    /* font-style: normal; */
+}
+#bday-age{
+     padding: 10px;
+     margin-top: 20px;
+}
+#bday-date{
+    margin: 0;
+}
+
+#image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #B8860B;
+    animation: 1s linear 0s 1 drop-down,
+               0.8s ease-in-out 1s infinite alternate pulse;
+    box-shadow: 
+        0 0 15px 1px rgba(184, 134, 11, 1);
+    transition: all 0.3s ease-in-out 0s;
+    /* animation: 4s linear 0s infinite alternate sun-rise; */
+}
+#image:hover{
+    transform: scale(1.05);
+}
+@keyframes drop-down{
+    from{
+        transform: translateY(-500px);
+    }
+     to{
+        transform: translateY(0);
+    }
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+/* body */
+.gifts{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-img{
+    background-image: url(giftwrap.jpg);
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.gift-img:focus{
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWc0Y3hqZHkzZjFxejBiNnhmd3Zic3ltc201ZHVkbzF2bmVqMDhqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1DTBGm5Rfgymk/giphy.gif);
+}
+.gift2-img{
+    background-image: url(giftwrap.jpg);
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.gift2-img:focus{
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXl0NXY4ajdrdXpieDB6eW9jaHhuOHUybWdxbmhlZW1xbmdnZHlqOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9xT2t7j84NezCga9Oh/giphy.gif);
+
+}
+.gift3-img{
+    background-image: url(giftwrap.jpg);
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.gift3-img:focus{
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW5oNXRieWhlemx0ODR2Ym9mZHZ2d2MxNWkwNXM5dWd1YnRicWFlayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mOmzZvZSL13y3pF2oU/giphy.gif)
+}
+.gift4-img{
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3Jpb3loM3B0YnBnYmRqd2d1eGpxNGdhNnR3amZ3b2pmam5jaHdsdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6WFScxN6fi95z3YVQD/giphy.gif);
+    background-size: contain;
+    height: 250px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #B8860B;
+}
+
+
